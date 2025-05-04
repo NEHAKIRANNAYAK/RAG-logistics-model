@@ -59,8 +59,8 @@ Logs customer orders:
 
 ### 2. Simulate and Ingest Data
 
-* `simulate_data.py`: Generates synthetic logistics datasets (`Table1_Products.csv`, `Table2_Shipping.csv`, `Table3_Orders.csv`).
-* These CSVs are ingested in **real-time** using **Pathway** to simulate live updates and streaming.
+* `simulate_data.py`: Generates rows of logistics datasets (`Table1_Products.csv`, `Table2_Shipping.csv`, `Table3_Orders.csv`) sequentially.
+* These CSVs are ingested in **real-time** using **Pathway** to simulate live updates and streaming and are stored as json records.
 
 ### 3. Parse Policy Document
 
